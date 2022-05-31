@@ -82,6 +82,25 @@ button{
     justify-content: space-around;
 }
 
+
+.footer-signup{
+    display: flex;
+    justify-content: space-around;
+    margin: 64px 200px 64px 200px;
+    background-color: lightblue;
+    padding: 32px;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-div{
+    align-self: center;
+}
+
+
 .footer{
     display: flex;
     justify-content: center;
