@@ -30,7 +30,7 @@ a{
 
 button{
     width: 96px;
-    padding: 16px;
+    padding: 4px;
 }
 
 .welcome-signup button{
@@ -145,38 +145,55 @@ button{
     justify-content: space-around;
 }
 
-.footer-signup-div{
-    margin: 128px;
-}
 
-
-.footer-signup{
+.did-you-learn-div{
     display: flex;
-    justify-content: space-around;
-    background-color: #3882f6;
-    padding: 32px 64px 32px 64px;
-    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    flex: 1;
 }
 
-.footer-text{
+.learning-box{
+    display: flex;
+    margin: 32px;
+    padding: 32px;
+    background-color:#3882f6;
+    flex: 1 1 auto;
+    max-width: 55%;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.learning-text{
     display: flex;
     flex-direction: column;
-}
-
-.button-div{
     align-self: center;
+    padding-left: 32px;
 }
 
-.button-div button{
+.learning-box button{
     background-color: #3882f6;
     border-radius: 8px;
-    border:2px solid white;
+    border:2px solid #ffffff;
+    align-self: center;
+    margin-right: 32px;
+}
+
+.lb-heading{
+    font-weight: bold;
+    color:#e5e7eb;
+    padding-bottom: 4px;
+}
+
+.lb-description{
+    color:#e5e7eb;
 }
 
 .footer{
     display: flex;
     justify-content: center;
-    background-color: grey;
-    margin:0px;
-    padding:0px;
+    padding: 12px;
+    background-color: #1f2937;
+    color:#f9faf8;
 }
