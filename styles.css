@@ -4,10 +4,22 @@ body{
     margin: 0px;
 }
 
+#turing-town-logo{
+    height: 36px;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+    padding-right: 24px;
+}
+
 .header{
     display: flex;
     justify-content: space-around;
-    background-color: grey;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 10px 0px 64px 0px;
 }
 
 button{
@@ -18,8 +30,9 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(165, 165, 165);
+    background-color: #1f2937;
     flex: auto;
+    padding-bottom: 64px;
 }
 
 .welcome-signup{
@@ -28,13 +41,23 @@ button{
     flex: 0 0 auto;
 }
 
+#turing-banner{
+    width: 350px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
 
-.info-section{
+.info-section {
+    padding: 64px 0px 64px 0px;
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 .information-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
     align-self: center;
 }
 
@@ -42,7 +65,7 @@ button{
     display: flex;
     justify-content: center;
     column-gap: 100px;
-    margin-top: 100px;
+    margin-top: 64px;
 }
 
 .item{
@@ -53,23 +76,26 @@ button{
 .item-text
 {
     width: 100px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
+    align-self: center;
+}
+
+.item-images{
+    height: 136px;
+    border: 2px solid #3882f6;
+    border-radius: 25px;
 }
 
 .empty-box{
     align-self: center;
-    font-size:30px; 
-    padding-left:30px;
-    background:red;
-
 }
 
 .inspiring-quote{
     display: flex;
     flex: auto;
     flex-direction: column;
-    background-color: #1f2937;
+    background-color: #e5e7eb;
     width: 100%;
     justify-content: center;
 }
@@ -84,13 +110,19 @@ button{
     justify-content: space-around;
 }
 
+.footer-signup-div{
+    display:flex;
+    justify-content: center;
+    margin: 24px;
+}
+
 
 .footer-signup{
     display: flex;
     justify-content: space-around;
-    margin: 64px 200px 64px 200px;
     background-color: lightblue;
-    padding: 32px;
+    padding: 32px 64px 32px 64px;
+    border-radius: 5px;
 }
 
 .footer-text{
